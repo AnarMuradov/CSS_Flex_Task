@@ -1,0 +1,293 @@
+body {
+  font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol, Noto Color Emoji;
+}
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+.hcontainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 810px;
+  width: 100%;
+  flex-direction: column;
+  gap: 10px;
+}
+.hcontainer h1 {
+  font-size: 78px;
+}
+.hcontainer span {
+  font-size: 24px;
+  font-weight: bold;
+}
+.hcontainer .btn {
+  width: 175px;
+  height: 65px;
+  background-color: #1d809f;
+  font-size: 16px;
+  padding: 21px 35px;
+  color: white;
+  border-radius: 8px;
+  margin-top: 40px;
+  text-decoration: none;
+}
+.hcontainer .btn:hover {
+  opacity: 0.7;
+}
+.himg img {
+  width: 100%;
+  height: 810px;
+  position: absolute;
+  z-index: -1;
+}
+.s1container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 430px;
+  width: 100%;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+}
+.s1container h3 {
+  font-size: 28px;
+}
+.s1container span {
+  font-size: 18px;
+  color: #212529;
+  font-weight: lighter;
+}
+a {
+  color: #1d809f;
+}
+
+.s1container .btn {
+  width: 175px;
+  height: 65px;
+  background-color: black;
+  font-size: 16px;
+  padding: 20px 34px;
+  color: white;
+  border-radius: 8px;
+  margin-top: 40px;
+  text-decoration: none;
+}
+.s1container .btn:hover {
+  opacity: 0.7;
+}
+.s2container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  width: 100%;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #1d809f;
+}
+.s2container h5 {
+  color: #ecb807;
+  font-size: 16px;
+}
+.s2container h3 {
+  color: white;
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+.icons {
+  display: inline-flex;
+}
+.wwoicons {
+  background-color: #fff;
+  color: #1d809f;
+  height: 110px;
+  width: 110px;
+  font-size: 32px;
+  border-radius: 100%;
+  text-align: center;
+  padding: 35px;
+  margin: 0px 100px;
+}
+.wwocontainer h4 {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+.wwocontainer span {
+  color: white;
+  padding-left: 45px;
+}
+.s3container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 730px;
+  width: 100%;
+  flex-direction: column;
+  gap: 10px;
+}
+.s3container h3 {
+  font-size: 56px;
+  max-width: 581px;
+  text-align: center;
+}
+
+.s3container .btn {
+  width: 175px;
+  height: 65px;
+  background-color: #1d809f;
+  font-size: 16px;
+  padding: 20px 30px;
+  color: white;
+  border-radius: 8px;
+  margin-top: 40px;
+  text-decoration: none;
+}
+.s3container .btn:hover {
+  opacity: 0.7;
+}
+.s3img img {
+  width: 100%;
+  height: 730px;
+  position: absolute;
+  z-index: -1;
+}
+
+.s4container {
+  width: 100%;
+  height: 1180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.imgcontainer .s4img img {
+  width: 610px;
+  height: 410px;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.s4img:hover {
+  width: 540px;
+  height: 340px;
+  cursor: pointer;
+  margin: 35px 35px 35px 35px;
+}
+
+.imgtxt {
+  position: absolute;
+  color: white;
+  margin: 327px 30px;
+}
+.s4container h5 {
+  color: #ecb807;
+  font-size: 16px;
+}
+.s4container h2 {
+  color: black;
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+.s5container {
+  height: 370px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d809f;
+  flex-direction: column;
+}
+.s5container h3 {
+  font-size: 32px;
+  color: white;
+}
+.s5container .btn1 {
+  width: 145px;
+  height: 65px;
+  background-color: white;
+  font-size: 16px;
+  padding: 20px 34px;
+  color: black;
+  border-radius: 8px;
+  margin-top: 40px;
+  text-decoration: none;
+  display: flex;
+  margin-right: 24px;
+}
+.s5container .btn2 {
+  width: 145px;
+  height: 65px;
+  background-color: black;
+  font-size: 16px;
+  padding: 18px 29px;
+  color: white;
+  border-radius: 8px;
+  margin-top: 40px;
+  text-decoration: none;
+  display: flex;
+}
+.s5btn {
+  display: flex;
+  flex-direction: row;
+}
+.s5btn :is(.btn1, .btn2):hover {
+  opacity: 0.7;
+}
+.map {
+  width: 100%;
+  height: 480px;
+  pointer-events: none;
+  border: 0;
+}
+footer {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .fa-brands {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+  cursor: pointer;
+  background-color: #1d809f;
+  color: white;
+  font-size: 24px;
+}
+.fa-brands:hover {
+  opacity: 0, 8;
+
+  transition: 500ms;
+}
